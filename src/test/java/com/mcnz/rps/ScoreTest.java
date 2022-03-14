@@ -29,7 +29,6 @@ public class ScoreTest {
 	public void testToString() {
 		Score score = new Score();
 		Assert.assertTrue(score.toString().length()>0);
-		Assert.assertTrue(false);
 	}
 	
 	@Test
